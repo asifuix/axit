@@ -1,0 +1,628 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+/* CSS */
+.navbar-nav{
+  margin-top: 16px;
+}
+.nav-link{
+  padding-left: 0!important;
+}
+.banner{
+  height: 65vh;
+}
+.banner .col-md-8{
+  width: 60%;
+}
+.banner .col-md-4{
+  width: 40%;
+}
+.banner-content{
+  height: 65vh;
+}
+.banner-content h1{
+  font-size: 28px;
+  width: 92%;
+}
+.banner-content p{
+  width: 90%;
+}
+.banner-form{
+  height: 65vh;
+}
+.social-media-icon li {
+    margin-left: 20px;
+}
+.social-media-icon li a i{
+  font-size: 35px;
+}
+.social-media-content p{
+  width: 100%;
+}
+.tab-section {
+  margin: 85px 0;
+}
+.tab-section .col-md-3 {
+  display: flex;
+  align-items: center;
+  width: 20%;
+}
+.tab ul li {
+  height: 80px;
+  width: 80px;
+  margin-bottom: 3px;
+  line-height: 80px;
+}
+.tab-content p{
+  padding: 25px 0;
+}
+.sub-list-section .row{
+  flex-direction: column;
+}
+.sub-list-section .col-sm-7{
+ width: 100%;
+}
+.sub-list-section .col-sm-5{
+ width: 100%;
+}
+.sub-list-content p{
+  width: 100%;
+}
+.sub-list-content .sub-title .content p{
+  width: 100%;
+}
+.standard-picture-section{
+  margin: 75px 0;
+}
+.standard-picture-section .row{
+  flex-direction: column-reverse;
+}
+.standard-picture-section .col-md-7{
+  width: 100%;
+}
+.standard-picture-section .col-md-5{
+  width: 100%;
+}
+.standard-picture-content .content-1 p{
+  width: 100%;
+}
+.standard-picture-content .content-2 p{
+  width: 100%;
+}
+.process-header h1{
+  font-size: 30px;
+}
+.process-section .line{
+  margin: 25px auto;
+}
+.process-section .content{
+  margin-top: 50px;
+}
+.process-section .content h4{
+  margin: 30px 0;
+}
+.process-section .content{
+  padding: 0 15px;
+}
+.pricing-section {
+  margin: 75px 0;
+}
+.pricing-header h1{
+  font-size: 30px;
+}
+.pricing-section .line{
+  margin: 25px auto;
+}
+.pricing-content{
+  margin: 30px 0;
+}
+.pricing-content .pricing-card{
+  margin: 0;
+}
+.testimonial .testimonial-header h1{
+  font-size: 30px;
+}
+.testimonial .testimonial-header .line{
+  margin: 25px auto;
+}
+.testimonial .col-md-4{
+  width: 100%;
+}
+.testimonial .reviewer{
+  justify-content: center;
+}
+.testimonial .review blockquote{
+  text-align: center;
+}
+.testimonial .corner-arrow{
+  left: 250px;
+}
+.custom-section{
+  margin: 50px 0;
+}
+.custom-content h1{
+  font-size: 30px;
+}
+.custom-content .line{
+  margin: 25px auto;
+}
+.custom-content p{
+  width: 70%;
+  margin: 0 auto;
+}
+.contact-header h1{
+  font-size: 30px;
+}
+.contact-header .line{
+  margin: 25px auto;
+}
+
+ /*..........*/
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  .navbar-nav{
+    margin-top: 16px;
+  }
+  .nav-link{
+    padding-left: 0!important;
+  }
+  .banner{
+    height: auto;
+    text-align: center;
+  }
+  .banner-content{
+    height: auto;
+    margin: 30px 0;
+    display: block;
+  }
+  .banner-content h1{
+    margin: 20px 0;
+    width: 100%;
+    font-size: 25px;
+  }
+  .banner-content p{
+    margin: 20px 0;
+    width: 100%;
+  }
+  .banner-form{
+    height: auto;
+    margin: 30px 0;
+    display: block;
+  }
+  .banner-content .line{
+    margin: 0 auto;
+  }
+  .social-media-icon ul{
+    padding-left: 0;
+    justify-content: center;
+  }
+  .social-media-icon li{
+    margin-left: 15px;
+  }
+  .social-media-icon li a i{
+    font-size: 30px;
+  }
+  .social-media{
+    text-align: center;
+  }
+  .social-media-content p{
+    width: 100%;
+  }
+  .social-media-icon{
+    margin: 15px 0;
+  }
+  .tab-section {
+    margin: 50px 0;
+    text-align: center;
+  }
+  .tab-section .row{
+    flex-direction: column-reverse;
+  }
+  .tab-section .tab{
+    margin: 35px 0;
+  }
+  .tab ul {
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+  }
+  .tab ul li {
+    height: 80px;
+    width: 100px;
+    margin: 0 3px;
+    line-height: 80px;
+  }
+  .tab-content h4{
+    padding: 25px 0;
+  }
+  .tab-content p{
+    padding: 0;
+    margin: 0 0 50px 0;
+    width: 100%;
+  }
+  .tab-content a{
+    margin: 25px 0;
+  }
+  .tab-section img{
+    margin: 30px 0;
+  }
+  .sub-list-section{
+    text-align: center;
+  }
+  .sub-list-section .row{
+    flex-direction: column;
+  }
+  .sub-list-section .col-sm-7{
+    width: 100%;
+  }
+  .sub-list-section .col-sm-5{
+    width: 100%;
+  }
+  .sub-list-content p{
+    width: 100%;
+  }
+  .sub-list-content .line{
+    margin: 20px auto;
+  }
+  .sub-list-content .sub-title{
+    text-align: left
+  }
+  .sub-list-content .sub-title .icon{
+    margin: auto 0;
+  }
+  .sub-list-content .sub-title .content{
+    margin-left: 20px;
+  }
+  .sub-list-content .sub-title .content p{
+    width: 100%;
+    margin: 10px 0;
+  }
+  .standard-picture-section{
+    margin: 50px 0;
+    text-align: center;
+  }
+  .standard-picture-section .row{
+    flex-direction: column-reverse;
+  }
+  .standard-picture-content .line{
+    margin: 20px auto;
+  }
+  .standard-picture-content .content-1 p{
+    width: 100%;
+  }
+  .standard-picture-content .content-2 p{
+    width: 100%;
+  }
+  .process-header h1{
+    font-size: 25px;
+  }
+  .process-header .line{
+    margin: 25px auto;
+  }
+  .process-section .content{
+    margin-top: 35px;
+  }
+  .pricing-header h1{
+    font-size: 25px;
+  }
+  .pricing-header .line{
+    margin: 25px auto;
+  }
+  .pricing-content{
+    margin: 35px 0;
+  }
+  .testimonial{
+    text-align: center;
+  }
+  .testimonial .testimonial-header h1{
+    font-size: 25px;
+    line-height: 36px;
+  }
+  .testimonial .testimonial-header .line{
+    margin: 25px auto;
+  }
+  .testimonial .corner-arrow{
+    left: 50%;
+  }
+  .testimonial .reviewer{
+    flex-direction: column;
+  }
+  .testimonial .reviewer .reviewer-details {
+    margin-top: 20px;
+  }
+  .custom-section{
+    margin: 35px 0;
+  }
+  .custom-content{
+    padding: 35px 0;
+  }
+  .custom-content h1{
+    font-size: 25px;
+  }
+  .custom-content .line{
+    margin: 25px auto;
+  }
+  .custom-content p{
+    margin: 0 5px;
+  }
+  .contact-header h1{
+    font-size: 25px;
+  }
+  .contact-header .line{
+    margin: 25px auto;
+  }
+  .contact-body{
+    flex-direction: column;
+  }
+  .left input{
+    width: 100%;
+    margin: 0 0 20px 0;
+  }
+  .right textarea{
+    width: 100%;
+    margin-left: : 0;
+    padding: 10px 10px 113px 0;
+  }
+  footer{
+    margin-top: 35px;
+  }
+  .social-icon ul li a i{
+    font-size: 20px;
+  }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+  .navbar-nav{
+    margin-top: 16px;
+  }
+  .nav-link{
+    padding-left: 0!important;
+  }
+  .banner{
+    height: auto;
+    text-align: center;
+  }
+  .banner-content{
+    height: auto;
+    margin: 30px 0;
+    display: block;
+  }
+  .banner-content h1{
+    margin: 20px 0;
+    width: 100%;
+    font-size: 25px;
+  }
+  .banner-content p{
+    margin: 20px 0;
+    width: 100%;
+  }
+  .banner-form{
+    height: auto;
+    margin: 30px 0;
+    display: block;
+  }
+  .banner-content .line{
+    margin: 0 auto;
+  }
+  .social-media-icon ul{
+    padding-left: 0;
+    justify-content: center;
+  }
+  .social-media-icon li{
+    margin-left: 15px;
+  }
+  .social-media-icon li a i{
+    font-size: 30px;
+  }
+  .social-media{
+    text-align: center;
+  }
+  .social-media-content p{
+    width: 100%;
+  }
+  .social-media-icon{
+    margin: 15px 0;
+  }
+  .tab-section {
+    margin: 50px 0;
+    text-align: center;
+  }
+  .tab-section .row{
+    flex-direction: column-reverse;
+  }
+  .tab-section .tab{
+    margin: 35px 0;
+  }
+  .tab ul {
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+  }
+  .tab ul li {
+    height: 80px;
+    width: 100px;
+    margin: 0 3px;
+    line-height: 80px;
+  }
+  .tab-content h4{
+    padding: 25px 0;
+  }
+  .tab-content p{
+    padding: 0;
+    margin: 0 0 50px 0;
+    width: 100%;
+  }
+  .tab-content a{
+    margin: 25px 0;
+  }
+  .tab-section img{
+    margin: 30px 0;
+  }
+  .sub-list-section{
+    text-align: center;
+  }
+  .sub-list-content p{
+    width: 100%;
+  }
+  .sub-list-content .line{
+    margin: 20px auto;
+  }
+  .sub-list-content .sub-title{
+    text-align: left
+  }
+  .sub-list-content .sub-title .icon{
+    margin: auto 0;
+  }
+  .sub-list-content .sub-title .content{
+    margin-left: 20px;
+  }
+  .sub-list-content .sub-title .content p{
+    width: 100%;
+    margin: 10px 0;
+  }
+  .standard-picture-section{
+    margin: 50px 0;
+    text-align: center;
+  }
+  .standard-picture-section .row{
+    flex-direction: column-reverse;
+  }
+  .standard-picture-content .line{
+    margin: 20px auto;
+  }
+  .standard-picture-content .content-1 p{
+    width: 100%;
+  }
+  .standard-picture-content .content-2 p{
+    width: 100%;
+  }
+  .process-header h1{
+    font-size: 25px;
+  }
+  .process-header .line{
+    margin: 25px auto;
+  }
+  .process-section .content{
+    margin-top: 35px;
+  }
+  .pricing-header h1{
+    font-size: 25px;
+  }
+  .pricing-header .line{
+    margin: 25px auto;
+  }
+  .pricing-content{
+    margin: 35px 0;
+  }
+  .testimonial{
+    text-align: center;
+  }
+  .testimonial .testimonial-header h1{
+    font-size: 25px;
+    line-height: 36px;
+  }
+  .testimonial .testimonial-header .line{
+    margin: 25px auto;
+  }
+  .testimonial .corner-arrow{
+    left: 50%;
+  }
+  .testimonial .reviewer{
+    flex-direction: column;
+  }
+  .testimonial .reviewer .reviewer-details {
+    margin-top: 20px;
+  }
+  .custom-section{
+    margin: 35px 0;
+  }
+  .custom-content{
+    padding: 35px 0;
+  }
+  .custom-content h1{
+    font-size: 25px;
+  }
+  .custom-content .line{
+    margin: 25px auto;
+  }
+  .custom-content p{
+    margin: 0 5px;
+  }
+  .contact-header h1{
+    font-size: 25px;
+  }
+  .contact-header .line{
+    margin: 25px auto;
+  }
+  .contact-body{
+    flex-direction: column;
+  }
+  .left input{
+    width: 100%;
+    margin: 0 0 20px 0;
+  }
+  .right textarea{
+    width: 100%;
+    margin-left: : 0;
+    padding: 10px 10px 113px 0;
+  }
+  footer{
+    margin-top: 35px;
+  }
+  .social-icon ul li a i{
+    font-size: 20px;
+  }
+
+}
